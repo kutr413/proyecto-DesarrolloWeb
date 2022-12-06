@@ -1,0 +1,167 @@
+
+#cuerpo{
+    background-image: url(../assets/images/unirse.jpg);
+    background-color: rgba(0, 0, 0, 0.589);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+#imagenFondoUnirse {
+    background-image: url(../assets/images/unirse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu'; 
+}
+#imagenFondoCarta {
+    background-image: url(../assetsimages/carta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu'; 
+}
+#imagenFondoContacto {
+    background-image: url(../assets/images/Contactanos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu'; 
+}
+#imagenFondoNosotros {
+    background-image: url(../assest/images/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu'; 
+}
+.encabezado {
+    background-image: url(../assets/images/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu';
+    -webkit-text-fill-color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+
+header ul{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    list-style-type: none;
+    text-align: center;
+}
+
+header ul li{
+    float:right;
+    padding-left: 3px;
+    padding-right: 3px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+li a {
+    -webkit-text-fill-color: rgb(255, 231, 231);
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+
+.mmmmain{
+     text-align: center;
+     font-size: 5vh;
+     background-color: rgba(184, 184, 184, 0.493);
+}
+
+.columna {
+    float: left;
+    width: 30%;
+    padding-right: 5px;
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  .parteDeAbajo {
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+
+
+.copyright {
+    text-align: center;
+    
+}
+.textoCentradoHeader{
+    padding-left: 10vh;
+    font-size: 5vh;
+    text-align: center;
+}
+
+
+.gradianteFondo{
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.redesFooter{
+    -webkit-text-fill-color: rgba(240, 248, 255, 0.589);
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fondoFooter{
+    background-color: rgba(14, 13, 13, 0.973);
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.colorIcon{
+    color: rgb(112, 9, 32);
+}
+.whatsapp{
+    right: -70px;
+    bottom: 30px;
+    border-radius: 50px;
+    background-color: rgba(21, 255, 0, 0.8);
+    position: fixed;
+    width: 117px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    transition: transform 0.1s ease;
+}
+.logo{
+    margin-top: 0;
+    margin-right: 0;}
+
+ html{
+     margin-bottom: 0px;
+     height: 100%;
+}
+
+.lineaDivisoria{
+
+    border-color:  rgb(255, 231, 231) !important;
+}
+
+.colorLinea{
+    text-decoration-color: antiquewhite !important;
+}
